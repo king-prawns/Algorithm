@@ -1,4 +1,4 @@
-const fibonacciRecursive = (i: number): number => {
+const FibonacciRecursive = (i: number): number => {
     if (i<=1) return i;
-    return fibonacciRecursive(i-1) + fibonacciRecursive(i-2);
+    return FibonacciRecursive(i-1) + FibonacciRecursive(i-2);
 }

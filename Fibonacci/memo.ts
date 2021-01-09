@@ -1,8 +1,8 @@
 const memo = [];
 
-const fibonacciMemo = (i: number): number => {
+const FibonacciMemo = (i: number): number => {
     if (i<=1) return i;
     if (memo[i]) return memo[i];
-    memo[i] = fibonacciMemo(i-1) + fibonacciMemo(i-2);
+    memo[i] = FibonacciMemo(i-1) + FibonacciMemo(i-2);
     return memo[i];
 }

@@ -4,7 +4,7 @@ const swap = (x: number, y: number,  A: number[]) => {
     A[y] = temp;
 }
 
-const bubbleSort = (A: number[]) => {
+const BubbleSort = (A: number[]) => {
     const N = A.length;
     for (let x = 0; x < N; x++) {
         for (let y = 0; y < (N - 1); y++) {

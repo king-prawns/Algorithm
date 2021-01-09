@@ -1,5 +1,4 @@
-const mergeTwoSortedArray = (A1: number[], A2: number[]): number[] => {
-    const R: number[] = []
+const MergeTwoSortedArray = (A1: number[], A2: number[], R: number[] = []): number[] => {
     const L1 = A1.length;
     const L2 = A2.length;
     let x = 0;

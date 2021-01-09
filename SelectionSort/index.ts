@@ -4,7 +4,7 @@ const swap = (x: number, y: number,  A: number[]) => {
     A[y] = temp;
 }
 
-const selectionSort = (A: number[]) => {
+const SelectionSort = (A: number[]) => {
     const N = A.length;
     for (let x = 0; x < N-1; x++) {
         let min = x;

@@ -1,4 +1,4 @@
-const fibonacci = (i: number): number => {
+const Fibonacci = (i: number): number => {
     if (i<=1) return i;
     const A: number[] = [0, 1];
     for (let x = 2; x <= i; x++) {
