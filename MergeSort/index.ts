@@ -1,3 +1,5 @@
+import MergeTwoSortedArray from '../MergeTwoSortedArray'
+
 const MergeSort = (A: number[]) => {
     const N = A.length;
     if (N < 2) return;
@@ -14,3 +16,5 @@ const MergeSort = (A: number[]) => {
     MergeSort(R);
     MergeTwoSortedArray(L,R,A);
 }
+
+export default MergeSort;
