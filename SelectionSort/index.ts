@@ -1,8 +1,4 @@
-const swap = (x: number, y: number,  A: number[]) => {
-    let temp = A[x];
-    A[x] = A[y];
-    A[y] = temp;
-}
+import SwapElementsInArray from '../SwapElementsInArray'
 
 const SelectionSort = (A: number[]) => {
     const N = A.length;
@@ -13,6 +9,8 @@ const SelectionSort = (A: number[]) => {
                 min = y;
             }
         }
-        swap(x, min, A);
+        SwapElementsInArray(A, x, min);
     }
 }
+
+export default SelectionSort;
