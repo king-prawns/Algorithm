@@ -31,3 +31,5 @@ const MergeTwoSortedArray = (A1: number[], A2: number[], R: number[] = []): numb
 
     return R;
 }
+
+export default MergeTwoSortedArray;
